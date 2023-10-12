@@ -1,0 +1,53 @@
+@import '../../texts.scss';
+@import '../../colors.scss';
+
+.subscribe {
+
+    & .main-text {
+        font-size: .8rem;
+    }
+
+    & .icon {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 390px) { 
+    .subscribe {
+        & .main-text {
+            font-size: 1rem;
+        }
+    }
+}
+
+@media (min-width: 576px) { 
+
+    .subscribe .icon {
+        font-size: 1.5rem!important;
+    }
+}
+
+
+
+
+.subscribe-main-box {
+    display: contents!important;
+}
+
+.subscribe-main-text {
+    font-size: 0.9rem;
+    font-family: $font-family-secondary;
+}
+@media (min-width: 768px) { 
+    .subscribe-main-text {
+        font-size: 1.1rem!important;
+        line-height: 1!important;
+    }
+}
+
+.subscribe-form-input {
+    font-size: 0.9rem!important;
+    font-family: $font-family-secondary;
+    color: $success;
+    background-clip: initial!important;
+}

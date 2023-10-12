@@ -1,0 +1,45 @@
+.carousel-item {
+    position: inherit!important;
+}
+
+.motivation .carousel-inner {
+    position: initial;
+    height: 150px;
+}
+
+.motivation {
+
+    & .carousel-caption {
+        position: inherit;
+        right: inherit;
+        bottom: inherit;
+        left: inherit;
+        padding: 0;
+    }
+
+    & .carousel-inner {
+        display: flex;
+        align-items: center;
+    }
+
+    & .main-text {
+        font-size: 0.7rem;
+    }
+}
+
+
+
+@media (min-width: 576px) { 
+    .motivation {
+        & .carousel-caption {
+            padding: 50px 25px;
+        }
+
+        & .main-text {
+            font-size: 0.9rem;
+        }
+    }
+
+    
+
+}

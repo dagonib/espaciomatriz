@@ -1,0 +1,61 @@
+@import '../../texts.scss';
+@import '../../colors.scss';
+
+
+@media (min-width: 576px) { 
+    .referrer-content > .referrer-item {
+        flex: 1 0 50%!important;
+    }
+}
+@media (min-width: 768px) { 
+    .referrer-content > .referrer-item {
+        flex: 1 0 25%!important;
+    }
+}
+
+.referrer-item {
+    position: relative;
+    border: 2px solid $secondary!important;
+}
+
+.referrer-item img {
+    border-bottom: 8px solid $primary;
+}
+
+.referrer-textbox {
+    position: absolute;
+    bottom: 0;
+    left:0;
+    margin-bottom: 8px;
+    background-color: rgba(82,82,82,.9);
+
+    opacity: 0;
+    transition: all 700ms ease-in;
+}
+
+.referrer-item .referrer-textbox { 
+    opacity: 0;
+    transform: translateY(-20px)
+}
+
+.referrer-item:hover .referrer-textbox { 
+    opacity: 1;
+    transform: translateX(0px)
+}
+
+.referrer-textbox p {
+    font-size: .9rem;
+    color: $secondary;
+}
+
+.referrer-name {
+    font-size: 1.1rem;
+}
+
+.referrer-topic {
+
+}
+
+.referrer-desc {
+
+}

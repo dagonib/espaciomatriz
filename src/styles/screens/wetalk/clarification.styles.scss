@@ -1,0 +1,17 @@
+.clarification {
+
+    & .icon {
+        font-size: 10rem;
+    }
+}
+
+
+@media (min-width: 576px) { 
+    .clarification {
+
+        & .icon {
+            font-size: 8rem!important;
+            padding-right: 2rem;
+        }
+    }
+}

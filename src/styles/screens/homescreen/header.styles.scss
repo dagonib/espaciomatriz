@@ -1,0 +1,73 @@
+@import '../../texts.scss';
+@import '../../colors.scss';
+
+//*************************** HEADER *************************//
+// Imagen de Fondo
+.header-backgound-image {
+    background-image: url("../../../images/motif/motif_1.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: top right;
+    background-repeat: no-repeat;    
+}
+
+// Imagen secundaria de fondo
+.header-secondary-background-image {
+    background-image: url("../../../images/motif/motif_2_xs.jpg");
+    width: 90%;
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+@media (min-width: 576px) {
+    .header-secondary-background-image {
+        background-image: url("../../../images/motif/motif_2_sm.jpg");
+        background-position: bottom left;
+    }
+}
+@media (min-width: 768px) {
+    .header-secondary-background-image {
+        background-image: url("../../../images/motif/motif_2_md.jpg");
+        background-position: bottom left;
+    }
+}
+@media (min-width: 992px) {
+    .header-secondary-background-image {
+        background-image: url("../../../images/motif/motif_2_lg.jpg");
+        background-position: bottom left;
+    }
+}
+
+// Cuadro de texto del Header
+.header-text-box {
+    transform: translate(-20px, -114px);
+}
+@media (min-width: 576px) {
+    .header-text-box {
+        transform: translate(-20px, 0px);
+    }
+}
+    .header-text-box-title {
+        font-size: 1.4rem;
+        font-family: $font-family-primary;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+// Imagen decorativa del Header
+.header-decorative-image-box {
+    transform: translate(20px, 50px);
+}
+
+.header-decorative-image {
+    width: 60%;
+    background-size: cover;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+    @media (min-width: 992px) { 
+        .header-decorative-image {
+            width: 40%;
+        }
+    }

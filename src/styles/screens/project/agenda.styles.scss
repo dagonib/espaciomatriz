@@ -1,0 +1,14 @@
+@import '../../texts.scss';
+@import '../../colors.scss';
+
+
+
+.agenda {
+    margin: 0 0 0 0
+}
+
+@media (min-width: 768px) { 
+    .agenda {
+        margin: 20rem 0 0 0
+    }
+}

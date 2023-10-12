@@ -1,0 +1,43 @@
+.notequote {
+
+    .icon-left {
+        font-size: 8.5rem;
+        transform: translateY(-63px);
+    }
+
+    .icon-right {
+        font-size: 8.5rem;
+        transform: translateY(63px);
+    }
+
+    .text_authory {
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width: 576px) { 
+    .notequote {
+    
+        .icon-right {
+            transform: translateY(45px);
+        }
+    }
+}
+
+@media (min-width: 992px) { 
+    .notequote {
+    
+        .icon-right {
+            transform: translateY(16px);
+        }
+    }
+}
+
+@media (min-width: 1200px) { 
+    .notequote {
+    
+        .icon-right {
+            transform: translateY(-14px);
+        }
+    }
+}
